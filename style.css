@@ -69,7 +69,7 @@ div.item {
   width: 85%;
   /* height: 90%; */
   margin: 5px;
-  margin-bottom: 2vh;
+  margin-bottom: 13vh;
   padding: 5px;
   display: inline-flex;
   flex-direction: row;
@@ -149,6 +149,7 @@ table {
   align-items: center;
   border-radius: 3px;
   width: 75%;
+  margin-bottom: 3vh;
 }
 
 table td {
@@ -159,6 +160,13 @@ table td:hover {
   background: orange;
 }
 /* -----------------------footer---------------------------- */
+footer {
+  height: 10%;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: center;
+}
 .footer-section {
   display: flex;
   justify-content: center;
